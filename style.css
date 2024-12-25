@@ -68,10 +68,17 @@ nav .nav-links a:hover {
   nav .nav-links {
     gap: 20px; /* Reduce space between links for smaller screens */
   }
-
   nav {
     padding: 0 10px; /* Reduce padding on smaller screens */
   }
+}
+
+.nav-links a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /* ------------------navbar-------------------- */
