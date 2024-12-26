@@ -425,8 +425,8 @@ nav .navbar .links li .sub-menu li{
 /* ------------------banner-------------------- */
 /* ------------------Scrolling-text-------------------- */
 #m2 {
-  --mq-bg: #80C4E9;
-  --mq-hover-bg: #118B50;
+  --mq-bg: #4DA1A9;
+  --mq-hover-bg: #79D7BE;
   --mq-border-radius: 3rem;
   width: 100%;
 }
