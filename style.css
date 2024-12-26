@@ -425,10 +425,10 @@ nav .navbar .links li .sub-menu li{
 /* ------------------banner-------------------- */
 /* ------------------Scrolling-text-------------------- */
 #m2 {
-  --mq-bg: #efadce;
-  --mq-hover-bg: #e685b5;
+  --mq-bg: #5DB996;
+  --mq-hover-bg: #118B50;
   --mq-border-radius: 3rem;
-  width: 80%;
+  width: 100%;
 }
 /* ------------------Scrolling-text-------------------- */
 /* ------------------cards-------------------- */
