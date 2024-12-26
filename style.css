@@ -422,7 +422,14 @@ nav .navbar .links li .sub-menu li{
   text-shadow: 1px 1px 0 #444;
 }
 /* ------------------banner-------------------- */
-
+/* ------------------Scrolling-text-------------------- */
+#m2 {
+  --mq-bg: #efadce;
+  --mq-hover-bg: #e685b5;
+  --mq-border-radius: 3rem;
+  width: 50%;
+}
+/* ------------------Scrolling-text-------------------- */
 /* ------------------cards-------------------- */
 
 .card-list {
