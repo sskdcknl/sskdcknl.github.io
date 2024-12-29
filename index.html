@@ -82,7 +82,7 @@
     <div style="display: flex; flex-direction: column; gap: 20px; align-items: center; padding: 15px;">
       <div id="m2" class="marqueefy" tabindex="0" data-mq-direction="left">
         <div class="content">
-          Dear Faculty, Kindly update the task up-to-date!!!
+          <p id="blink"><img src="images/new_text_icon.png" width="38" height="22"></p> Dear Faculty, Kindly update the task up-to-date!!!
         </div>
       </div>
     </div>
@@ -138,6 +138,12 @@
         </a> -->
     </div>
     <script>
+      // blink logo
+      var blink = document.getElementById('blink');
+            setInterval(function() {
+                blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+            }, 500);
+
       // Theme Toggle Logic
       const themeToggleBtn = document.getElementById("theme-toggle-btn");
       themeToggleBtn.addEventListener("click", () => {

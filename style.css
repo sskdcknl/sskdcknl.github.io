@@ -425,6 +425,9 @@ nav .navbar .links li .sub-menu li{
 /* ------------------banner-------------------- */
 
 /* ------------------marquee-------------------- */
+#blink {
+  transition: 0.5s;
+}
 @keyframes marqueefy{
   0%{
     transform:translate(var(--mq-translate-x-0),var(--mq-translate-y-0))
@@ -442,9 +445,9 @@ nav .navbar .links li .sub-menu li{
   --mq-border-style:solid;
   --mq-border-color:transparent;
   --mq-border-radius:.375rem;
-  --mq-padding-y:1rem;
+  --mq-padding-y:0.5rem;
   --mq-padding-x:0;
-  --mq-font-size:1rem;
+  --mq-font-size:1.4rem;
   --mq-font-family:sans-serif;
   --mq-animation-duration:15s;
   --mq-translate-x-0:0;
@@ -462,7 +465,8 @@ nav .navbar .links li .sub-menu li{
   border-radius:var(--mq-border-radius)
 }
 .marqueefy .content{
-  display:inline-block;
+  display:inline-flex;
+  justify-content: space-between;
   padding:0 0 0 100%;
   margin:0;
   font-family:var(--mq-font-family);
@@ -517,14 +521,12 @@ nav .navbar .links li .sub-menu li{
 /* ------------------marquee-------------------- */
 
 /* ------------------Scrolling-text-------------------- */
-.content {
-  top: 30px;
-}
 #m2 {
   --mq-bg: var(--primary-color);
   --mq-hover-bg: var(--primary-color);
   --mq-border-radius: 3rem;
-  width: 100%;
+  margin-top: 30px;
+  width: 95%;
 }
 /* ------------------Scrolling-text-------------------- */
 /* ------------------cards-------------------- */
@@ -533,7 +535,7 @@ nav .navbar .links li .sub-menu li{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     max-width: 1250px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 20px;
     gap: 20px;
 }
