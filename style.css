@@ -33,7 +33,7 @@
 
 /* body */
 body {
-  margin-top: 120px;
+  margin-top: 100px;
   font-family: "Poppins", sans-serif;
   background: var(--bg-color);
   color: var(--text-color);
@@ -365,7 +365,7 @@ nav .navbar .links li .sub-menu li{
 .banner {
   position: relative;
   z-index: 1;
-  margin: 20px auto;
+  margin: 0px auto;
   width: 330px;
 }
 .banner .line {
@@ -615,3 +615,8 @@ nav .navbar .links li .sub-menu li{
     }
 }
 /* ------------------cards-------------------- */
+
+#foo-right {
+  float: right;
+  margin-right: 10px;
+}
