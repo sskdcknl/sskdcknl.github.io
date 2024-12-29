@@ -436,7 +436,7 @@ nav .navbar .links li .sub-menu li{
 .marqueefy{
   --mq-bg:#f8f9fa;
   --mq-hover-bg:#e9ecef;
-  --mq-color:#212529;
+  --mq-color:#f5f5f5;
   --mq-hover-color:#000;
   --mq-border-width:0;
   --mq-border-style:solid;
