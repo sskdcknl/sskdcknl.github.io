@@ -82,8 +82,10 @@
     <div style="display: flex; flex-direction: column; gap: 20px; align-items: center; padding: 15px;">
       <div id="m2" class="marqueefy" tabindex="0" data-mq-direction="left">
         <div class="content">
-          <p id="blink"><img src="images/new_text_icon.png" width="38" height="22"></p> 
-          <p>Dear Faculty, Kindly update the task up-to-date! &nbsp;&nbsp; | &nbsp;&nbsp; <p id="blink"><img src="images/new_text_icon.png" width="38" height="22"></p> Kindly mention floating hour in comment section of Teachers Dairy</p>
+          <p id="blink1"><img src="images/new_text_icon.png" width="38" height="22"></p> 
+          <p>Dear Faculty, Kindly update the task up-to-date! &nbsp;&nbsp; | &nbsp;&nbsp;</p> 
+          <p id="blink2"><img src="images/new_text_icon.png" width="38" height="22"></p> 
+          <p>Kindly mention floating hour in comment section of Teachers Dairy</p>
         </div>
       </div>
     </div>
@@ -149,9 +151,13 @@
     
     <script>
       // blink logo
-      var blink = document.getElementById('blink');
+      var blink1 = document.getElementById('blink1');
             setInterval(function() {
-                blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+                blink1.style.opacity = (blink1.style.opacity == 0 ? 1 : 0);
+            }, 500);
+      var blink2 = document.getElementById('blink2');
+            setInterval(function() {
+                blink2.style.opacity = (blink2.style.opacity == 0 ? 1 : 0);
             }, 500);
 
       // Theme Toggle Logic
